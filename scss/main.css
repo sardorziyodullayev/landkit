@@ -334,4 +334,75 @@ template {
 .building__img {
   transform: rotateY(-35deg) rotateX(15deg);
   box-shadow: 25px 60px 125px -25px rgba(80, 102, 144, 0.1), 16px 40px 75px -40px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  margin-left: -30px;
+}
+
+.button-next {
+  margin-right: -60px;
+}
+
+.footer a:hover {
+  border-bottom: 2px solid #888;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__list {
+    display: none;
+  }
+  .header__button {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero__inner {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .hero__img {
+    margin-left: -70px;
+    width: 400px;
+    height: 250px;
+  }
+  .heading {
+    width: 100%;
+  }
+  .dashkit {
+    width: 200px;
+    height: 90px;
+  }
+  .yoga__inner {
+    flex-direction: column-reverse;
+  }
+  .yoga__heading {
+    width: 100%;
+  }
+  .carousel-item {
+    flex-direction: column;
+  }
+  .standard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card {
+    width: 400px;
+    margin: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
